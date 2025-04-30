@@ -7,31 +7,31 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "Web UI",
+    title: "Backend Development",
     description:
-      "I design clean and intuitive web interfaces that ensure a seamless user experience across all devices.",
-    href: "https://www.behance.net/gallery/204914731/Showcase-Of-Restaurant-Website-Design",
+      "I build robust and scalable backend systems using Django REST Framework, implementing secure APIs and efficient database management.",
+    href: "#",
   },
   {
     num: "02",
-    title: "App UI",
+    title: "Frontend Development",
     description:
-      "I craft engaging and user-friendly app interfaces, focusing on ease of use and aesthetic appeal.",
-    href: "https://www.behance.net/gallery/205021653/Tutor-Match-UX-Case-Study",
+      "I create responsive and interactive user interfaces using React and Next.js, ensuring optimal user experience across all devices.",
+    href: "#",
   },
   {
     num: "03",
-    title: "UX Case Studies",
+    title: "Full Stack Development",
     description:
-      "I create in-depth UX case studies that highlight the research, design process, and solutions behind each project.",
-    href: "https://www.behance.net/gallery/206657793/Revolutionizing-Dental-Care",
+      "I develop complete web applications with seamless integration between frontend and backend, focusing on performance and maintainability.",
+    href: "#",
   },
   {
     num: "04",
-    title: "Social Media Branding",
+    title: "Database Design",
     description:
-      "I develop cohesive social media branding that effectively communicates a brand's identity and resonates with the target audience.",
-    href: "",
+      "I design and optimize relational databases, ensuring efficient data storage, retrieval, and management for web applications.",
+    href: "#",
   },
 ];
 const Services = () => {

@@ -21,16 +21,17 @@ export default function Home() {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt8 xl:pb-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none ">
-            <span className="text-xl">UI/UX Designer </span>
+            <span className="text-xl">Full Stack Developer</span>
             <h1 className="h1">
               Hello I&apos;m <br />
-              <span className="text-accent">Hasnain </span>
+              <span className="text-accent">Ahmad Saeed</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I specialize in designing seamless and intuitive user experiences,
-              leveraging my expertise in design principles and tools to
-              transform complex ideas into visually compelling and user-friendly
-              digital products.
+              I specialize in Django REST APIs and seamlessly integrating them with React-based frontends. 
+              Proficient in relational database design, optimization, and management, with a track record 
+              of delivering scalable, maintainable web applications. Strong collaborator who thrives in 
+              agile environments and is passionate about crafting intuitive user experiences and clean, 
+              well-documented code.
             </p>
 
             {/* button and socials */}

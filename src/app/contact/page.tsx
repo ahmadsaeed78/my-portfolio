@@ -17,11 +17,11 @@ import {
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 
 const info = [
-  { icon: <FaPhoneAlt />, title: "phone", description: "(+92) 3120923848" },
+  { icon: <FaPhoneAlt />, title: "phone", description: "(+92) 3370628035" },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "hasnainkhanu0@gmail.com",
+    description: "ahmad5045841@gmail.com",
   },
   {
     icon: <FaMapMarkedAlt />,
@@ -48,8 +48,7 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl ">
               <h3 className="text-4xl text-accent">Let&apos;s work together</h3>
               <p className="text-white/60 ">
-                to transform your ideas into impactful designs and innovative
-                solutions.
+                to transform your ideas and designs into impactful web applications and innovative solutions.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -66,9 +65,10 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectItem value="backend">Backend Development</SelectItem>
+                    <SelectItem value="frontend">Frontend Development</SelectItem>
+                    <SelectItem value="fullstack">Full Stack Development</SelectItem>
+                    <SelectItem value="database">Database Design</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

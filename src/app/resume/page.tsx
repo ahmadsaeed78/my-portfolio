@@ -7,23 +7,27 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaPython,
+  FaDatabase,
+  FaServer,
+  FaCode,
 } from "react-icons/fa";
-import { DiIllustrator, DiPhotoshop } from "react-icons/di";
+import { DiIllustrator, DiPhotoshop, DiPostgresql } from "react-icons/di";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiDjango, SiPostgresql, SiDocker, SiGit } from "react-icons/si";
 
 // about data
 const about = {
   title: "About me",
   descripiton:
-    " 'm Hasnain Ahmed, a UI/UX designer with 2.5 years of experience, blending creative design with technical expertise. I specialize in crafting user-friendly interfaces and managing social media branding.",
+    "I'm Ahmad Saeed, a Full Stack Developer specializing in Django REST APIs and React-based frontends. With expertise in relational database design and optimization, I deliver scalable, maintainable web applications while crafting intuitive user experiences.",
   info: [
-    { fieldName: "Name", fieldValue: "Hasnain Ahmad" },
-    { fieldName: "Phone", fieldValue: "(+92) 3120923848" },
-    { fieldName: "Experience", fieldValue: "3 Years" },
-    { fieldName: "Skype", fieldValue: "hasnainahmed" },
+    { fieldName: "Name", fieldValue: "Ahmad Saeed" },
+    { fieldName: "Phone", fieldValue: "(0628035" },
+    { fieldName: "Experience", fieldValue: "1 Year" },
+    { fieldName: "Email", fieldValue: "ahmad5045841@gmail.com" },
     { fieldName: "Nationality", fieldValue: "Pakistani" },
-    { fieldName: "Email", fieldValue: "hasnainkhanu0@gmail.com" },
+    { fieldName: "Address", fieldValue: "Kohat, Pakistan" },
     { fieldName: "Freelance", fieldValue: "Available" },
     { fieldName: "Language", fieldValue: "English, Urdu" },
   ],
@@ -34,12 +38,12 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "Crafting engaging user interfaces, optimizing user experiences, and leading teams to deliver impactful solutions.",
+    "Developing robust web applications, building RESTful APIs, and creating seamless user experiences through full-stack development.",
   items: [
     {
-      company: "Uzair Technology",
-      position: "UI/UX Designer and Social Media Branding Specialist",
-      duration: "2022 - Present",
+      company: "Kohat University of Science and Technology",
+      position: "Full Stack Developer Intern",
+      duration: "June 2024 - Oct 2024",
     },
   ],
 };
@@ -49,22 +53,17 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "A blend of creative flair and a strong tech foundation, bridging aesthetics and functionality.",
+    "A strong foundation in software engineering with practical experience in full-stack development.",
   items: [
     {
-      institution: "International Public School",
-      degree: "Matric Education",
-      duration: "Completed",
-    },
-    {
-      institution: "Karwan Model College Kohat",
-      degree: "FSC",
-      duration: "Completed",
+      institution: "Karwan Model College, Kohat",
+      degree: "HSSC in Computer Science",
+      duration: "Jul 2019 - Aug 2021",
     },
     {
       institution: "Kohat University of Science and Technology",
       degree: "Bachelor of Software Engineering",
-      duration: "Currently in 7th Semester",
+      duration: "Oct 2021 - Jul 2025",
     },
   ],
 };
@@ -73,11 +72,16 @@ const education = {
 const skills = {
   title: "My skills",
   descripton:
-    "Expert in UI/UX design and social media branding, with a strong command of tools like Figma to create engaging and intuitive digital experiences.",
+    "Expert in backend development with Django and database management, specializing in building robust REST APIs and scalable database solutions.",
   skillList: [
-    { icon: <FaFigma />, name: "figma" },
-    { icon: <DiIllustrator />, name: "Illustration" },
-    { icon: <DiPhotoshop />, name: "PhotoShop" },
+    { icon: <SiDjango />, name: "Django" },
+    { icon: <FaPython />, name: "Python" },
+    { icon: <SiPostgresql />, name: "PostgreSQL" },
+    { icon: <FaServer />, name: "REST APIs" },
+    { icon: <FaDatabase />, name: "Database Design" },
+    { icon: <FaReact />, name: "React" },
+    { icon: <SiGit />, name: "Git" },
+    { icon: <FaCode />, name: "API Development" },
   ],
 };
 

@@ -8,19 +8,19 @@
   }
 
   .h1 {
-    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold tracking-tight;
   }
   .h2 {
-    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold tracking-tight;
   }
   .h3 {
-    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold tracking-tight;
   }
   .text-outline {
-    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 1px #64ffda;
   }
 
   .text-outline-hover {
-    -webkit-text-stroke: 1px #19acff;
+    -webkit-text-stroke: 1px #1d4ed8;
   }
 }

@@ -12,14 +12,14 @@ const Header = () => {
         {/* logo */}
         <Link href={"/"}>
           <h1 className="text-4xl font-semibold">
-            Hasnain <span className="text-accent">.</span>
+            Ahmad <span className="text-accent">.</span>
           </h1>
         </Link>
 
         {/* desktop nav & hire me button */}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
-          <Link href="/contact">
+          <Link href="https://wa.me/923370628035" target="_blank">
             <Button>Hire me</Button>
           </Link>
         </div>

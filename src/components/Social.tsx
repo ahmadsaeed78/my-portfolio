@@ -1,14 +1,16 @@
 import Link from "next/link";
 
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
-import { AiFillInstagram } from "react-icons/ai";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const socials = [
   {
     icon: <FaLinkedinIn />,
-    path: "https://www.linkedin.com/in/hasnain-ahmed-1a9547283/?lipi=urn%3Ali%3Apage%3Ad_flagship3_notifications%3BIFZeIOfrSseLqc1G%2FVStdQ%3D%3D",
+    path: "https://www.linkedin.com/in/ahmad-saeed-b15571233/",
   },
-  { icon: <AiFillInstagram />, path: "" },
+  {
+    icon: <FaGithub />,
+    path: "https://github.com/ahmadsaeed78",
+  },
 ];
 const Social = ({
   containerStyles,

@@ -23,36 +23,51 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "App ",
-    title: "projects 1",
+    category: "Web Application",
+    title: "FYP Management System",
     description:
-      "I design intuitive and visually appealing app interfaces that enhance user engagement",
-    stack: [{ name: "Figma" }],
-    image: "/assets/work/laundry-mobile.png",
-    live: "https://www.behance.net/gallery/206657793/Revolutionizing-Dental-Care",
-    github: "",
+      "A comprehensive Final Year Project Management System built with Django REST Framework and React. Features include role-based access control, group management, and file upload configuration.",
+    stack: [
+      { name: "Django" },
+      { name: "React" },
+      { name: "PostgreSQL" },
+      { name: "REST API" }
+    ],
+    image: "/assets/work/fyp-system.png",
+    live: "#",
+    github: "#",
   },
   {
     num: "02",
-    category: "Web",
-    title: "projects 2",
+    category: "Web Application",
+    title: "QR Code Based Restaurant Management System",
     description:
-      "I develop responsive and user-friendly web interfaces that ensure a seamless online experience.",
-    stack: [{ name: "Figma" }],
-    image: "/assets/work/marathon-web.png",
-    live: "https://www.behance.net/gallery/204914731/Showcase-Of-Restaurant-Website-Design",
-    github: "",
+      "A full-stack restaurant management system that uses QR codes for table management, menu access, and order processing.",
+    stack: [
+      { name: "Django" },
+      { name: "React" },
+      { name: "PostgreSQL" },
+      { name: "QR Code" }
+    ],
+    image: "/assets/work/restaurant-system.png",
+    live: "#",
+    github: "#",
   },
   {
     num: "03",
-    category: "UX Case Studies",
-    title: "project 2",
+    category: "Web Application",
+    title: "E-commerce Platform",
     description:
-      "I produce in-depth UX case studies that illustrate my approach to solving design problems and optimizing user experiences.",
-    stack: [{ name: "Figma" }],
-    image: "/assets/work/case-study.png",
-    live: "https://www.behance.net/gallery/205021653/Tutor-Match-UX-Case-Study",
-    github: "",
+      "A scalable e-commerce platform with features like product management, shopping cart, and secure payment integration.",
+    stack: [
+      { name: "Django" },
+      { name: "React" },
+      { name: "PostgreSQL" },
+      { name: "Stripe" }
+    ],
+    image: "/assets/work/ecommerce.png",
+    live: "#",
+    github: "#",
   },
 ];
 
