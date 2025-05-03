@@ -33,7 +33,7 @@ const projects = [
       { name: "PostgreSQL" },
       { name: "REST API" }
     ],
-    image: "/assets/work/fyp-system.png",
+    image: "/assets/work/fyp_management.jpg",
     live: "#",
     github: "#",
   },
