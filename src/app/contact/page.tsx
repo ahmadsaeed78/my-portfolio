@@ -17,16 +17,16 @@ import {
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 
 const info = [
-  { icon: <FaPhoneAlt />, title: "phone", description: "(+92) 3370628035" },
+  { icon: <FaPhoneAlt />, title: "Phone", description: "(+92) 337 0628035" },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "ahmad5045841@gmail.com",
+    description: "ahmad@5045841@gmail.com",
   },
   {
     icon: <FaMapMarkedAlt />,
     title: "Address",
-    description: "Kohat, Pakistan",
+    description: "Islamabad, Pakistan",
   },
 ];
 

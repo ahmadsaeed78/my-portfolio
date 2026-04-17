@@ -7,30 +7,30 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "Backend Development",
+    title: "AI & LLM Integration",
     description:
-      "I build robust and scalable backend systems using Django REST Framework, implementing secure APIs and efficient database management.",
+      "I specialize in building intelligent automation pipelines using LLMs (Groq, Gemini) and OCR to automate complex workflows. Worked on a high-precision backend system for validating structured data against complex rule-based regulations, focusing on performance and accuracy.",
     href: "#",
   },
   {
     num: "02",
-    title: "Frontend Development",
+    title: "Backend Development",
     description:
-      "I create responsive and interactive user interfaces using React and Next.js, ensuring optimal user experience across all devices.",
+      "I develop robust and scalable server-side systems using Python (Django, FastAPI), focusing on secure API design and performance optimization. My work emphasizes clean architecture, maintainability, and efficient data handling.",
     href: "#",
   },
   {
     num: "03",
-    title: "Full Stack Development",
+    title: "Frontend Development",
     description:
-      "I develop complete web applications with seamless integration between frontend and backend, focusing on performance and maintainability.",
+      "I build responsive, high-performance user interfaces using React, ensuring seamless user experiences and modern aesthetics.",
     href: "#",
   },
   {
     num: "04",
-    title: "Database Design",
+    title: "Database Optimization",
     description:
-      "I design and optimize relational databases, ensuring efficient data storage, retrieval, and management for web applications.",
+      "I design and manage complex database architectures using PostgreSQL and MongoDB, ensuring data integrity and efficient retrieval for high-traffic apps.",
     href: "#",
   },
 ];

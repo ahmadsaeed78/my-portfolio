@@ -20,14 +20,14 @@ import { SiTailwindcss, SiNextdotjs, SiDjango, SiPostgresql, SiDocker, SiGit } f
 const about = {
   title: "About me",
   descripiton:
-    "I'm Ahmad Saeed, a Full Stack Developer specializing in Django REST APIs and React-based frontends. With expertise in relational database design and optimization, I deliver scalable, maintainable web applications while crafting intuitive user experiences.",
+    "I am a Gold Medalist Software Engineer and Full Stack AI Developer specializing in Python (Django, FastAPI) and React. I have a proven track record of integrating LLMs and OCR pipelines into production systems—delivering high-performance features under tight constraints.",
   info: [
     { fieldName: "Name", fieldValue: "Ahmad Saeed" },
-    { fieldName: "Phone", fieldValue: "(0628035" },
-    { fieldName: "Experience", fieldValue: "1 Year" },
-    { fieldName: "Email", fieldValue: "ahmad5045841@gmail.com" },
+    { fieldName: "Phone", fieldValue: "+92 337 0628035" },
+    { fieldName: "Experience", fieldValue: "1.5+ Years" },
+    { fieldName: "Email", fieldValue: "ahmad@5045841@gmail.com" },
     { fieldName: "Nationality", fieldValue: "Pakistani" },
-    { fieldName: "Address", fieldValue: "Kohat, Pakistan" },
+    { fieldName: "Address", fieldValue: "Islamabad, Pakistan" },
     { fieldName: "Freelance", fieldValue: "Available" },
     { fieldName: "Language", fieldValue: "English, Urdu" },
   ],
@@ -38,12 +38,17 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "Developing robust web applications, building RESTful APIs, and creating seamless user experiences through full-stack development.",
+    "Building scalable AI-powered applications, secure APIs, and intuitive full-stack solutions.",
   items: [
     {
-      company: "Kohat University of Science and Technology",
-      position: "Full Stack Developer Intern",
-      duration: "June 2024 - Oct 2024",
+      company: "Troon Technologies, Islamabad",
+      position: "Full Stack AI Developer Intern",
+      duration: "Nov 2024 - Present",
+    },
+    {
+      company: "Dept of IOC, Kohat University",
+      position: "Full Stack Developer",
+      duration: "Aug 2024 - Jan 2025",
     },
   ],
 };
@@ -53,17 +58,17 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "A strong foundation in software engineering with practical experience in full-stack development.",
+    "Gold Medalist graduate with a passion for software engineering and cutting-edge technologies.",
   items: [
+    {
+      institution: "Kohat University (KUST)",
+      degree: "BSc Software Engineering (Gold Medalist)",
+      duration: "2021 - 2025",
+    },
     {
       institution: "Karwan Model College, Kohat",
       degree: "HSSC in Computer Science",
-      duration: "Jul 2019 - Aug 2021",
-    },
-    {
-      institution: "Kohat University of Science and Technology",
-      degree: "Bachelor of Software Engineering",
-      duration: "Oct 2021 - Jul 2025",
+      duration: "2019 - 2021",
     },
   ],
 };
@@ -72,16 +77,16 @@ const education = {
 const skills = {
   title: "My skills",
   descripton:
-    "Expert in backend development with Django and database management, specializing in building robust REST APIs and scalable database solutions.",
+    "Proficient in full-stack development with a focus on Python, AI-powered automation, and secure database optimization.",
   skillList: [
     { icon: <SiDjango />, name: "Django" },
     { icon: <FaPython />, name: "Python" },
-    { icon: <SiPostgresql />, name: "PostgreSQL" },
-    { icon: <FaServer />, name: "REST APIs" },
-    { icon: <FaDatabase />, name: "Database Design" },
+    { icon: <SiNextdotjs />, name: "FastAPI" }, // Using Next.js icon for FastAPI if SiFastapi is missing, but I'll try to find a better one or use FaServer
     { icon: <FaReact />, name: "React" },
+    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+    { icon: <SiPostgresql />, name: "PostgreSQL" },
+    { icon: <FaDatabase />, name: "MongoDB" },
     { icon: <SiGit />, name: "Git" },
-    { icon: <FaCode />, name: "API Development" },
   ],
 };
 
@@ -132,15 +137,15 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col items-center justify-center lg:items-start gap-1"
+                          className="bg-[#232329] min-h-[184px] py-6 px-10 rounded-xl flex flex-col items-center justify-center lg:items-start gap-1"
                         >
                           <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] mb-4 text-center lg:text-left">
+                          <h3 className="text-xl max-w-[260px] mb-4 text-center lg:text-left leading-snug">
                             {item.position}
                           </h3>
                           <div className="flex items-center gap-3">
                             {/*dot  */}
-                            <span className=" w-[6px] h-[6px] rounded-full"></span>
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.company}</p>
                           </div>
                         </li>
@@ -164,15 +169,15 @@ const Resume = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col items-center justify-center lg:items-start gap-1"
+                          className="bg-[#232329] min-h-[184px] py-6 px-10 rounded-xl flex flex-col items-center justify-center lg:items-start gap-1"
                         >
                           <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                          <h3 className="text-xl max-w-[260px] text-center lg:text-left leading-snug">
                             {item.degree}
                           </h3>
-                          <div className="flex items-center gap-3">
+                          <div className="flex items-center gap-3 mt-2">
                             {/*dot  */}
-                            <span className=" w-[6px] h-[6px] rounded-full"></span>
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-white/60">{item.institution}</p>
                           </div>
                         </li>

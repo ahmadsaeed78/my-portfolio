@@ -23,51 +23,51 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Web Application",
-    title: "FYP Management System",
+    category: "AI & Full Stack",
+    title: "AI Document Extraction Pipeline",
     description:
-      "A comprehensive Final Year Project Management System built with Django REST Framework and React. Features include role-based access control, group management, and file upload configuration.",
+      "An end-to-end AI pipeline using LLM Whisperer (OCR) and Groq LLM to extract data from invoices and cheques, auto-filling React forms via FastAPI — achieving sub-10 second response times using free APIs.",
     stack: [
-      { name: "Django" },
+      { name: "FastAPI" },
       { name: "React" },
-      { name: "PostgreSQL" },
-      { name: "REST API" }
+      { name: "Groq LLM" },
+      { name: "LLM Whisperer" },
     ],
-    image: "/assets/work/fyp_management.jpg",
+    image: "/assets/work/fyp_management.jpg", // Placeholder image
     live: "#",
-    github: "#",
+    github: "https://github.com/ahmadsaeed78",
   },
   {
     num: "02",
-    category: "Web Application",
-    title: "QR Code Based Restaurant Management System",
+    category: "AI & Web Development",
+    title: "AI Compliance & Validation Platform",
     description:
-      "A full-stack restaurant management system that uses QR codes for table management, menu access, and order processing.",
+      "Developed FastAPI backend endpoints for OCR-based document analysis and bylaw compliance validation of architectural plans. Integrated AI services to automate regulatory checks and reduce manual effort.",
     stack: [
-      { name: "Django" },
+      { name: "FastAPI" },
+      { name: "MongoDB" },
       { name: "React" },
-      { name: "PostgreSQL" },
-      { name: "QR Code" }
+      { name: "AI Validation" },
     ],
-    image: "/assets/work/restaurant-system.png",
+    image: "/assets/work/ecommerce.png", // Placeholder image
     live: "#",
-    github: "#",
+    github: "https://github.com/ahmadsaeed78",
   },
   {
     num: "03",
     category: "Web Application",
-    title: "E-commerce Platform",
+    title: "QR Code Restaurant Management System",
     description:
-      "A scalable e-commerce platform with features like product management, shopping cart, and secure payment integration.",
+      "A full-stack restaurant management system that uses QR codes for table management, menu access, and order processing. Designed and optimized the complete database schema.",
     stack: [
       { name: "Django" },
       { name: "React" },
       { name: "PostgreSQL" },
-      { name: "Stripe" }
+      { name: "QR Code" },
     ],
-    image: "/assets/work/ecommerce.png",
+    image: "/assets/work/restaurant-system.png",
     live: "#",
-    github: "#",
+    github: "https://github.com/ahmadsaeed78",
   },
 ];
 
