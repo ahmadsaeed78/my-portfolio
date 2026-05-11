@@ -62,7 +62,7 @@ const projects = [
     stack: [
       { name: "FastAPI" },
       { name: "React" },
-      { name: "PostgreSQL" },
+      { name: "MongoDB" },
       { name: "QR Code" },
     ],
     image: "/assets/work/restaurant-system.png",
