@@ -21,53 +21,53 @@ import { title } from "process";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
+  // {
+  //   num: "01",
+  //   category: "AI & Full Stack",
+  //   title: "AI Document Extraction Pipeline",
+  //   description:
+  //     "An end-to-end AI pipeline using LLM Whisperer (OCR) and Groq LLM to extract data from invoices and cheques, auto-filling React forms via FastAPI — achieving sub-10 second response times using free APIs.",
+  //   stack: [
+  //     { name: "FastAPI" },
+  //     { name: "React" },
+  //     { name: "Groq LLM" },
+  //     { name: "LLM Whisperer" },
+  //   ],
+  //   image: "/assets/work/fyp_management.jpg", // Placeholder image
+  //   live: "#",
+  //   github: "https://github.com/ahmadsaeed78",
+  // },
+  // {
+  //   num: "02",
+  //   category: "AI & Web Development",
+  //   title: "AI Compliance & Validation Platform",
+  //   description:
+  //     "Developed FastAPI backend endpoints for OCR-based document analysis and bylaw compliance validation of architectural plans. Integrated AI services to automate regulatory checks and reduce manual effort.",
+  //   stack: [
+  //     { name: "FastAPI" },
+  //     { name: "MongoDB" },
+  //     { name: "React" },
+  //     { name: "AI Validation" },
+  //   ],
+  //   image: "/assets/work/ecommerce.png", // Placeholder image
+  //   live: "#",
+  //   github: "https://github.com/ahmadsaeed78",
+  // },
   {
     num: "01",
-    category: "AI & Full Stack",
-    title: "AI Document Extraction Pipeline",
-    description:
-      "An end-to-end AI pipeline using LLM Whisperer (OCR) and Groq LLM to extract data from invoices and cheques, auto-filling React forms via FastAPI — achieving sub-10 second response times using free APIs.",
-    stack: [
-      { name: "FastAPI" },
-      { name: "React" },
-      { name: "Groq LLM" },
-      { name: "LLM Whisperer" },
-    ],
-    image: "/assets/work/fyp_management.jpg", // Placeholder image
-    live: "#",
-    github: "https://github.com/ahmadsaeed78",
-  },
-  {
-    num: "02",
-    category: "AI & Web Development",
-    title: "AI Compliance & Validation Platform",
-    description:
-      "Developed FastAPI backend endpoints for OCR-based document analysis and bylaw compliance validation of architectural plans. Integrated AI services to automate regulatory checks and reduce manual effort.",
-    stack: [
-      { name: "FastAPI" },
-      { name: "MongoDB" },
-      { name: "React" },
-      { name: "AI Validation" },
-    ],
-    image: "/assets/work/ecommerce.png", // Placeholder image
-    live: "#",
-    github: "https://github.com/ahmadsaeed78",
-  },
-  {
-    num: "03",
     category: "Web Application",
     title: "QR Code Restaurant Management System",
     description:
       "A full-stack restaurant management system that uses QR codes for table management, menu access, and order processing. Designed and optimized the complete database schema.",
     stack: [
-      { name: "Django" },
+      { name: "FastAPI" },
       { name: "React" },
-      { name: "PostgreSQL" },
+      { name: "MongoDB" },
       { name: "QR Code" },
     ],
     image: "/assets/work/restaurant-system.png",
-    live: "#",
-    github: "https://github.com/ahmadsaeed78",
+    live: "https://dinesmart-app.vercel.app/staff/login",
+    github: "https://github.com/ahmadsaeed78/dinesmart-app",
   },
 ];
 
